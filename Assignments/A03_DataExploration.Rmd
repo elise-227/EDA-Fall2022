@@ -26,6 +26,10 @@ The completed exercise is due on Sept 30th.
 
 ```{r,  message = FALSE}
 
+tox <-read.csv("./Data/Raw/ECOTOX_Neonicotinoids_Insects_raw.csv", stringsAsFactors = TRUE)
+
+neon <- read.csv("./Data/Raw/NEON_NIWO_Litter_massdata_2018-08_raw.csv", stringsAsFactors = TRUE)
+
 ```
 
 ## Learn about your system
